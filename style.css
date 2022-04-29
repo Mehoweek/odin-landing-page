@@ -1,19 +1,15 @@
-* {
-    /*border: 1px solid red; 
-      */
 
-}
 
 body {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
 
 .one {
     background-color: #1F2937;
-    padding: 8px 200px 80px 200px;
+    padding: 8px 200px 120px 200px;
     color: #f9faf8f8;
     font-weight: bold;
     font-size: 24px;
@@ -45,21 +41,28 @@ a {
 
 .left1 {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     justify-content: center;
     gap: 8px;
+    width: 600px;
+    overflow-wrap: normal;
 }
 
 .left1big {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    display: flex;
+    overflow-wrap: normal;
+    
+    
 }
 
 .left1small {
     font-size: 18px;
     color: #E5E7EB;
     font-weight: 400;
+    overflow-wrap: normal;
 }
 
 .button1 {
@@ -77,11 +80,12 @@ a {
 
 .right1 {
     height: 225px;
-    width: 900px;
+    width: 700px;
     background-color: #56595c;
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow-wrap: normal;
 }
 
 .right1text {
@@ -89,12 +93,62 @@ font-weight: 400;
 font-size: 18px;
 }
 
+
+
+
+
+
+
 .two {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.up2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin: 32px;
+}
+
+.down2 {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 60px;
+}
+
+.down2image {
+    height: 180px;
+    width: 180px;
+    text-align: center;
+    font-weight: 300;
     
 }
 
-.three {
+img {
+    margin: 0px;
+    height: 180px;
+    width: 180px;
+    z-index: -1;
+    position: relative;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
 
+
+
+
+
+
+
+
+
+
+
+.three {
+    height: 1000px;
+    margin-top: 100px;
 }
 
 .four {
