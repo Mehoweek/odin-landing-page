@@ -2,7 +2,7 @@
 
 body {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
@@ -41,28 +41,21 @@ a {
 
 .left1 {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: center;
     gap: 8px;
-    width: 600px;
-    overflow-wrap: normal;
 }
 
 .left1big {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
-    display: flex;
-    overflow-wrap: normal;
-    
-    
 }
 
 .left1small {
     font-size: 18px;
     color: #E5E7EB;
     font-weight: 400;
-    overflow-wrap: normal;
 }
 
 .button1 {
@@ -80,7 +73,7 @@ a {
 
 .right1 {
     height: 225px;
-    width: 700px;
+    width: 900px;
     background-color: #56595c;
     display: flex;
     align-items: center;
@@ -92,6 +85,8 @@ a {
 font-weight: 400;
 font-size: 18px;
 }
+
+
 
 
 
@@ -116,6 +111,7 @@ font-size: 18px;
     display: flex;
     flex-flow: row nowrap;
     gap: 60px;
+    margin-bottom: 80px;
 }
 
 .down2image {
