@@ -63,15 +63,28 @@ a {
 
 .button1 {
     background-color: #3882F6;
+    margin-top: 8px;
     border: none;
     border-radius: 6px;
     color: white;
     font-weight: 700;
-    padding: 4px 16px;
-    flex: 0 1 auto;
+    height: 20px;
+    width: 70px;
+    padding: 20px 60px;
+    flex: 0 0 auto;
     height: 30px;
     max-height: 30px;
     max-width: 90px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 16px;
+}
+
+.button1:hover {
+    background-color: #639efd;
 }
 
 .right1 {
@@ -107,7 +120,7 @@ font-size: 18px;
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
-    margin: 32px;
+    margin: 40px;
 }
 
 .down2 {
@@ -118,8 +131,8 @@ font-size: 18px;
 }
 
 .down2image {
-    height: 180px;
-    width: 180px;
+    height: 250px;
+    width: 250px;
     text-align: center;
     font-weight: 300;
     
@@ -127,8 +140,8 @@ font-size: 18px;
 
 img {
     margin: 0px;
-    height: 180px;
-    width: 180px;
+    height: 250px;
+    width: 250px;
     z-index: -1;
     position: relative;
     border: 3px solid #3882F6;
@@ -203,8 +216,12 @@ img {
     border: 2px solid white;
     border-radius: 9px;
     font-weight: bold;
+    cursor: pointer;
 }
 
+.button4:hover {
+    background-color: #639efd;
+}
 
 
 
